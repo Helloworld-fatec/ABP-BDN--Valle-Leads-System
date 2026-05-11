@@ -1,5 +1,5 @@
 ## 📌 Sobre o Projeto
-Este projeto consiste no desenvolvimento de um banco de dados não relacional utilizando **MongoDB** para a empresa **1000 Valle Multimarcas**, uma revendedora de veículos multimarcas[cite: 5, 24]. O objetivo central é gerenciar o fluxo de atendimento desde a geração do lead até a conclusão da negociação, adaptando uma estrutura originalmente pensada para bancos relacionais (PostgreSQL/Prisma) para a flexibilidade do modelo de documentos.
+Este projeto consiste no desenvolvimento de um banco de dados não relacional utilizando **MongoDB** para a empresa **1000 Valle Multimarcas**, uma revendedora de veículos multimarcas. O objetivo central é gerenciar o fluxo de atendimento desde a geração do lead até a conclusão da negociação, adaptando uma estrutura originalmente pensada para bancos relacionais (PostgreSQL/Prisma) para a flexibilidade do modelo de documentos.
 
 Projeto desenvolvido para a disciplina de **Banco de Dados Não Relacional** da **Fatec**, sob orientação da **Prof. Lucineide**.
 
