@@ -1,0 +1,20 @@
+{
+  "name": "crm-mongo-etl",
+  "version": "1.0.0",
+  "description": "ETL: CSV → MongoDB para dashboard CRM",
+  "scripts": {
+    "step1": "ts-node 01_create_collections.ts",
+    "step2": "ts-node 02_import_csv.ts",
+    "step3": "ts-node 03_queries_aggregations.ts",
+    "all": "npm run step1 && npm run step2 && npm run step3"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "mongodb": "^6.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
